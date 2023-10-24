@@ -1,46 +1,32 @@
-#main-CV-photo {
-    width: 200px
+p.none {border-style: none; /* Questo comando indica il colore della tabella nel quale sono presenti i crediti del sito.*/
+  background-color: rgb(29, 81, 141);
+  text-align: center;
+  color: white;
+  text-align: center;
 }
+
+.blue_header {background-color: lightblue;
+  width: 1850px;
+}
+
+table, th, td{
+  border: solid 1px white;
+  border-collapse: collapse;
+  padding: 10px;
+  }
+
+  .riga_blu{
+    background-color: rgb(78, 144, 243);
+  }
+
+  .table_s{
+    background-color: rgb(144, 172, 202);
+  }
+
+
 
 .logo {
-    margin: 20px 0;
-    width: 200px; /* Questo comando imposta la larghezza del logo */
-    height: auto; /* Questo comando imposta l'altezza del logo */
+  height: 50px; 
+  width: 1850px;
+  background-color: rgb(111, 184, 245)
 }
-
-.bl { 
-    background-color: lightblue; /* Questo comando indica il colore del backgruond della mia tabella*/
-    width: 1850px; /* Questo comando indica la larghezza della mia tabella*/
-}
-
-  #lorem { /* Questa è la classe collegata alla tabella "Lorem", ho indicato tutte le informazioni come il colore delle celle, altezza, lunghezza e il contenuto è presente nella sezione HTML.*/
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  #lorem td, #lorem th {
-    border: 1px solid #1f8294;
-    padding: 1px;
-  }
-  
-  #lorem tr:nth-child(even){background-color: #f2f2f2;}
-  
-  #lorem tr:hover {background-color: #1f8294;}
-  
-  #lorem th {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    text-align: left;
-    background-color: #4f83f3;
-    color: rgb(255, 255, 255);
-  }
-
-  p.none {border-style: none; /* Questo comando indica il colore della tabella nel quale sono presenti i crediti del sito.*/
-    background-color: rgb(29, 81, 141);
-    text-align: center;
-  }
-
-
-
-

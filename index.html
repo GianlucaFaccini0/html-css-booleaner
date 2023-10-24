@@ -1,86 +1,71 @@
-<!--Questo è il documento per il primo compito assegnato dal docente Lucchetta Bryan. Il documento non rispecchia completamente le richieste del docente e richiede un ulteriore lavoro di sistemazione.
-Mi sono avvalso del prezioso aiuto di w3school e di un mio compagno di corso, ho bisogno di studiare perché faccio ancora molta fatica a tirare giù il codice, mi tocca studiare con maggiore impegno
-24/10/2023 - Faccini Gianluca!-->
-
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
 
-<head> <!--Nel head ho aggiunto le informazioni iniziali della pagina ossia il titolo, il collegamento al documento CSS, il logo.-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Booleans</title> <!--Il titolo rappresenta il nome della pagina nella scheda del browser.-->
-
-    <link rel="stylesheet" href="./style/style.css"> <!--Con il comando link ho indicato al programma di effettuare un collegamento al documento di compilazione di CSS, così da aggiungere gli effetti grafici che vedrete nella pagina.-->
+    <title>The Booleaner</title>
     
-    <div class="bl"> <!--Con il "div" e la class="bl" ho impostato una riga celeste contenente il logo del sito.-->
-    <img class="logo" src="./img/logo.svg" alt="main CV photo"> <!--Con "img" ho aggiunto il logo del sito.-->
-    </div>
+    <link rel="stylesheet" href="./style/style.css">
+    
 </head>
 
-
-<body> <!--Nel body ho inserito il contenuto della pagina, visualizza le prossime descrizioni per comprendere lo sviluppo del codice.-->
-
-    <header> <!--Header contiene al suo interno il titol dell'articolo della pagina e le immagini allegate.-->
-
-        <H2>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</H2> <!--Questa stringa rappresenta il titolo dell'articolo che è stato compilato con "h2" che rappresenta la grandezza dei caratteri.-->
-        <p><br>Scritto da <a href="https://boolean.careers/">The Booleaner</a><br>il 10/10/2020</p> <!--Nella riga sottostante ho inserito la data di scrittura dell'articolo con i crediti con annesso link del sito dello scrittore dell'articolo-->
-        <img src="./img/tim-1.jpg" alt="main CV photo"> <img src="./img/tim-2.jpg" alt="main CV photo"> <!--Nel tag "img" ho inserito le due immagini riportanti Tim Berners-Lee, l'inventore del linguaggio markup HTML.-->
-        
-    </header>
-
-    <main> <!--Nel main ho inserito le tre sezioni che composte dal paragrafo "Lorem", dall'elenco puntato e dalla tablella indicativa.-->
-
-        <section> <!--Con il tag "section" indichiamo una sezione nel quale possiamo inserire un qualsiasi contenuto, per esempio un paragrafo, un elenco puntato o una tabella come nell'esempio di questo documento.-->
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt Ut wisi enim ad minuim veinam, quis exerci tation ullamercorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autern vel eum iriure dolor in hendrerit in vulpunte velit esse molestie consequat, vel illum dolore eu feiguiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesant luptatum zzril delenit augue duis dolore te feudait nulla facilisi.</p>
-        </section>
-
-        
-        <section>
-          <p>
-            <ul> <!--Con il tag "ul" indico al programma che devo compilare un elenco puntato.-->
-                <li>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volupt.</li>
-                <li>Ut wisi enim ad minuim venaim, quis nostrud exerci tation ullamcorper suscipit lovortis nisl ut aliquip ex ea commodo consequat.</li>
-                <li>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volupt.</li>
-            </ul>
-          </p>  
-        </section>
-
-        <section>
-            <table id="lorem"> <!--Con il tag "table" indico al programma che devo creare una tabella. Nella parte HTML ho scritto i dati che vengono visualizzati all'interno della stessa, mentre la parte grafica e riservata al documento CSS.-->
-                <tr>
-                  <th>Lorem ipsum dolor</th>
-                  <th>Lorem ipsum dolor</th>
-                  <th>Lorem ipsum dolor</th>
-                </tr>
-                <tr>
-                  <td>Lorem ipsum dolor</td>
-                  <td>Lorem ipsum dolor</td>
-                  <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis rerum laudantium sit laborum corrupti illum exercitationem eligendi sint doloribus magni illo, eum nostrum officiis iste eius sed, atque ipsam quidem.</td>
-                </tr>
-                <tr>
-                  <td>Lorem ipsum dolor</td>
-                  <td>Lorem ipsum dolor</td>
-                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum neque, accusantium, nulla similique placeat tempore nemo aut sit veniam vel molestias nostrum laborum illum. Saepe voluptatibus quaerat ullam debitis alias.</td>
-                </tr>
-                <tr>
-                  <td>Lorem ipsum dolor</td>
-                  <td>Lorem ipsum dolor</td>
-                  <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, facere hic ullam excepturi commodi enim. Harum dignissimos quisquam et iure, debitis, quia numquam nihil assumenda, ullam modi temporibus saepe atque.</td>
-                </tr>
-              </table>
-              
-        </section>
-
-    </main>
-
-    <footer> <!--Nel footer ho gestito la parte dei crediti della pagina, nel documento CSS ho indicato tramite la class="none" che devevo inserire una cornice nel quale dovevo inserire i crediti.-->
-
-      <p class="none">Copyright The Booleaner - Tutti i diritti riservati</p>
-
-    </footer>
+<body>
     
+    <header>
+        
+        
+        <img class="logo" src="./img/logo.svg" alt="main_cv_photo">
+    
+    </header>
+    
+    <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+    <h5>Scritto da <a href="https://boolean.careers/">The Booleaner</a><br>il 10/10/2020</h5>
+    <img src="./img/tim-1.jpg"> 
+    <img src="./img/tim-2.jpg">
+    <h5>1st Photo: John s. James L. Knight Foundation, by Scott Henrichsen<br>2nd Photo: Wikipedia, by Paul Clarke</h5>
+
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt Ut wisi enim ad minuim veinam, quis exerci tation ullamercorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autern vel eum iriure dolor in hendrerit in vulpunte velit esse molestie consequat, vel illum dolore eu feiguiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesant luptatum zzril delenit augue duis dolore te feudait nulla facilisi.</p>
+
+    <ul>
+        <li>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volupt.</li>
+        <li>Ut wisi enim ad minuim venaim, quis nostrud exerci tation ullamcorper suscipit lovortis nisl ut aliquip ex ea commodo consequat.</li>
+        <li>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volupt.</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="riga_blu padding_right_high">Lorem ipsum dolor</th>
+                <th class="riga_blu padding_right_high">Lorem ipsum dolor</th>
+                <th class= "riga_blu padding_right_high"> Lorem ipsum dolor</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                <td class="table_s">Lorem ipsum dolor</td>
+                <td class="table_s">Lorem ipsum dolor</td>
+                <td class="table_s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis rerum laudantium sit laborum corrupti illum exercitationem eligendi sint doloribus magni illo, eum nostrum officiis iste eius sed, atque ipsam quidem.</td>
+                </tr>
+                <tr>
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum neque, accusantium, nulla similique placeat tempore nemo aut sit veniam vel molestias nostrum laborum illum. Saepe voluptatibus quaerat ullam debitis alias.</td>
+                </tr>
+                <tr>
+                <td class="table_s">Lorem ipsum dolor</td>
+                <td class="table_s">Lorem ipsum dolor</td>
+                <td class="table_s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, facere hic ullam excepturi commodi enim. Harum dignissimos quisquam et iure, debitis, quia numquam nihil assumenda, ullam modi temporibus saepe atque.</td>
+                </tr>
+        </tbody>
+    </table>
+
+    <footer>
+        
+        <p class="none">Copyright The Booleaner - Tutti i diritti riservati</p>
+        
+    </footer>
+
 </body>
-
-
 </html>
