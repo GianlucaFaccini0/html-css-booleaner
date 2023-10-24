@@ -1,3 +1,5 @@
+/* Mi sono avvalso del prezioso aiuto di w3school e di un mio compagno di corso, ho bisogno di studiare perché faccio ancora molta fatica a tirare giù il codice, mi tocca studiare con maggiore impegno!*/
+
 /* ID */
 #main-CV-photo {
     width: 200px
@@ -10,36 +12,40 @@
 }
 
 .bl {
-  background-color: lightblue;
-  width: 10000px;
+    background-color: lightblue;
+    width: 1850px;
 }
 
-#customers {
+  #lorem {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
   }
   
-  #customers td, #customers th {
+  #lorem td, #lorem th {
     border: 1px solid #1f8294;
     padding: 8px;
   }
   
-  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  #lorem tr:nth-child(even){background-color: #f2f2f2;}
   
-  #customers tr:hover {background-color: #1f8294;}
+  #lorem tr:hover {background-color: #1f8294;}
   
-  #customers th {
+  #lorem th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #1458eb;
+    background-color: #4f83f3;
     color: rgb(255, 255, 255);
   }
 
   p.none {border-style: none;
-    background-color: lightblue;
+    background-color: rgb(29, 81, 141);
     text-align: center;}
+
+    .text-white{
+        color: white;
+    }
 
 
 
