@@ -24,7 +24,7 @@
   
   #lorem td, #lorem th {
     border: 1px solid #1f8294;
-    padding: 8px;
+    padding: 1px;
   }
   
   #lorem tr:nth-child(even){background-color: #f2f2f2;}
@@ -32,8 +32,8 @@
   #lorem tr:hover {background-color: #1f8294;}
   
   #lorem th {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     text-align: left;
     background-color: #4f83f3;
     color: rgb(255, 255, 255);
@@ -41,11 +41,9 @@
 
   p.none {border-style: none;
     background-color: rgb(29, 81, 141);
-    text-align: center;}
+    text-align: center;
+  }
 
-    .text-white{
-        color: white;
-    }
 
 
 
