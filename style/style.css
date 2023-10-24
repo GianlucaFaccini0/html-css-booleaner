@@ -1,22 +1,19 @@
-/* Mi sono avvalso del prezioso aiuto di w3school e di un mio compagno di corso, ho bisogno di studiare perché faccio ancora molta fatica a tirare giù il codice, mi tocca studiare con maggiore impegno!*/
-
-/* ID */
 #main-CV-photo {
     width: 200px
 }
 
 .logo {
     margin: 20px 0;
-    width: 200px; /* Imposta la larghezza desiderata, ad esempio 200px */
-    height: auto; /* Imposta l'altezza su 'auto' per mantenere l'aspetto originale dell'immagine */
+    width: 200px; /* Questo comando imposta la larghezza del logo */
+    height: auto; /* Questo comando imposta l'altezza del logo */
 }
 
-.bl {
-    background-color: lightblue;
-    width: 1850px;
+.bl { 
+    background-color: lightblue; /* Questo comando indica il colore del backgruond della mia tabella*/
+    width: 1850px; /* Questo comando indica la larghezza della mia tabella*/
 }
 
-  #lorem {
+  #lorem { /* Questa è la classe collegata alla tabella "Lorem", ho indicato tutte le informazioni come il colore delle celle, altezza, lunghezza e il contenuto è presente nella sezione HTML.*/
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -39,7 +36,7 @@
     color: rgb(255, 255, 255);
   }
 
-  p.none {border-style: none;
+  p.none {border-style: none; /* Questo comando indica il colore della tabella nel quale sono presenti i crediti del sito.*/
     background-color: rgb(29, 81, 141);
     text-align: center;
   }
