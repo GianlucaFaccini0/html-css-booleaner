@@ -11,7 +11,7 @@
 
 .bl {
   background-color: lightblue;
-  width: 1000px;
+  width: 10000px;
 }
 
 #customers {
@@ -21,21 +21,25 @@
   }
   
   #customers td, #customers th {
-    border: 1px solid #ddd;
+    border: 1px solid #1f8294;
     padding: 8px;
   }
   
   #customers tr:nth-child(even){background-color: #f2f2f2;}
   
-  #customers tr:hover {background-color: #ddd;}
+  #customers tr:hover {background-color: #1f8294;}
   
   #customers th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #04AA6D;
-    color: white;
+    background-color: #1458eb;
+    color: rgb(255, 255, 255);
   }
+
+  p.none {border-style: none;
+    background-color: lightblue;
+    text-align: center;}
 
 
 
