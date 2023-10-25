@@ -15,20 +15,16 @@ table, th, td{
   padding: 10px;
   }
 
-  .riga_blu{
+  .table_h{
     background-color: rgb(78, 144, 243);
   }
 
-  .table_s{
+  .table_b{
     background-color: rgb(144, 172, 202);
   }
-
-
 
 .logo {
   height: 50px; 
   width: 1850px;
   background-color: rgb(111, 184, 245);
-   
-  
 }
